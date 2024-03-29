@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;   
+}
+
+body{
+    background-color:black;
+}
+
+header .cabecario{
+    background-color:lightGray;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    padding:10px;  
+    gap:10px;    
+}
+
+
+main{   
+    width:100%;   
+    display:flex;    
+    flex-wrap:wrap;
+    padding:10px;
+    justify-content:center;  
+}
+
+section{
+    background-color:lightGray;
+    width:100;
+    height:100px;
+    margin:10px;    
+}
+
+aside{
+    background-color:lightGray;
+    width:300px;
+    padding:10px;        
+}
+
+content{
+    display:flex;
+    background-color:#6495ED;
+    width:100%;   
+}
+
+
+footer{
+    background-color:black;
+    width:100%;
+    height:100px;    
+}
+
+.creditos{
+    color:white;
+    text-align:center;
+    padding-top:70px;
+}

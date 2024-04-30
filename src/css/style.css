@@ -34,14 +34,17 @@ section{
 
 .descricaoQuiz{
     width: 600px;
-    margin-top: 10px;
-  
-
-  
-  
-    
-    
+    margin-top: 10px;    
 }
+
+.tituloQuiz{   
+    color: rebeccapurple;          
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vert
+    overflow: hidden;
+    text-overflow: ellipsis;          
+} 
 
 aside{
     background-color:lightGray;
